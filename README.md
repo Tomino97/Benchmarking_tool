@@ -1,4 +1,4 @@
-# Benchmarking_tool
+# Priority_queue_benchmark
   Simple benchmarking tool, which combines repeated measurement (using ‹clock_gettime›) and statistical processing of the measured data.
   Two implementations of priority queue use <vector> and <list> for the representation of its members.
   
