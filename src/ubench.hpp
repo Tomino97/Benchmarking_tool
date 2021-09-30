@@ -51,8 +51,7 @@ namespace ubench {
         /* Repeatedly invoke function 'f', measuring its runtime.
          * The `rep_*` specify the minimum and the maximum number of
          * repetitions, and `timeout` specifies how many
-         * microseconds of runtime to accumulate.  See `spec.txt`
-         * for details. */
+         * microseconds of runtime to accumulate. */
         struct timespec start, end;
         struct bootstrap data;
         long totalTime = 0;
